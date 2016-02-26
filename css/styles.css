@@ -3,6 +3,9 @@
 
 html,body {
     height:100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -13,6 +16,10 @@ html,body {
 .navbar-inverse {
     background-color: transparent;
     border-color: transparent;
+}
+
+.navMargin {
+    margin-right: 10%;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
@@ -107,13 +114,74 @@ html,body {
 }
 
 #packages .row {
-    width: 95%;
+    width: 99%;
 }
 
 #packages .row div h1 {
     color: lightsalmon;
     font-family: 'Yesteryear', cursive;
     font-size: 96px;
+}
+
+.menu {
+    margin-top: 8%;
+}
+
+.menuMargin {
+    margin-bottom: 15px;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #333;
+    background-color: #333;
+}
+
+.navPad {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.nav-tabs.nav-justified>li>a:hover {
+    background-color: rgba(51, 51, 51, 0.7);
+    border:1px solid #f8512f;
+}
+
+.menuDisplay {
+    display: inline-flex;
+}
+
+.menuTitle {
+    font-size: 95px;
+}
+
+.menuThumb {
+    padding: 0px;
+}
+
+.menuTab {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.thumbnail {
+    border: 0px;
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.imgThumb {
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.min100 {
+    min-width: 100%;
+}
+
+.bottomColor {
+    background-color: #f8512f;
+    padding-bottom: 20px;
 }
 
 /*============================== CONTACT ============================*/
