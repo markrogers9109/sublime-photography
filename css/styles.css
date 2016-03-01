@@ -59,7 +59,6 @@ html,body {
 }
 
 .special,.special .jumbotron {
-    height:100%;
     /*margin-bottom: 0px;*/
 }
 
@@ -84,6 +83,7 @@ html,body {
     height: 100%;
     background: url(../images/5.jpg) no-repeat center center;
     background-size: cover;
+    margin-bottom: 0px;
 }
 
 #gallery .row {
@@ -108,9 +108,9 @@ html,body {
 /*============================== PACKAGES ===========================*/
 
 #packages {
-    height: 100%;
     background: url(../images/wood-teal.jpg) no-repeat center center;
     background-size: cover;
+    margin-bottom: 0px;
 }
 
 #packages .row {
@@ -121,6 +121,10 @@ html,body {
     color: lightsalmon;
     font-family: 'Yesteryear', cursive;
     font-size: 96px;
+}
+
+.h1 {
+    margin-top: 0px;
 }
 
 .menu {
@@ -141,9 +145,19 @@ html,body {
     padding-right: 0px;
 }
 
+.nav-tabs.nav-justified > li > a {
+    color: white;
+}
+
+.nav-tabs.nav-justified > .active > a {
+    color: lightsalmon;
+    background-color: #fff;
+}
+
 .nav-tabs.nav-justified>li>a:hover {
     background-color: rgba(51, 51, 51, 0.7);
-    border:1px solid #f8512f;
+    border:1px solid lightsalmon;
+    color: lightsalmon;
 }
 
 .menuDisplay {
@@ -187,10 +201,10 @@ html,body {
 /*============================== CONTACT ============================*/
 
 #contact {
-    height: 100%;
     background:url(../images/cloth-bg.jpg) no-repeat center center;
     background-size: cover;
     width: 100%;
+    margin-bottom: 0px;
 }
 
 #contact .row {
@@ -214,7 +228,6 @@ html,body {
 }
 
 .width a span {
-
     /*width: 5%;*/
     color: lightgrey;
     font-size: 28px;
